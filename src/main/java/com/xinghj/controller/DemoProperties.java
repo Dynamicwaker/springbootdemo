@@ -1,4 +1,4 @@
-package com.xinghj;
+package com.xinghj.controller;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

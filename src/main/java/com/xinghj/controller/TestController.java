@@ -1,4 +1,4 @@
-package com.xinghj;
+package com.xinghj.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
