@@ -1,0 +1,25 @@
+# 第二种配置文件,方式比properties更优雅，注意空格,
+#server:
+#  port: 8080
+#  context-path: /springbootdemo
+cupSize: B
+age: 18
+## 配置里面用配置
+content: "cupSize: ${cupSize},age: ${age}"
+#girl:
+#  name: duoNew
+#  age: 18
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+    data-username: root
+    data-password: 123456
+
+  # ddl-auto: create 每次启动帮你删除数据库中的表重新创建
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,7 @@
+# 第二种配置文件,方式比properties更优雅，注意空格,
+server:
+  port: 8080
+  context-path: /springbootdemo
+girl:
+  name: swj
+  age: 25
